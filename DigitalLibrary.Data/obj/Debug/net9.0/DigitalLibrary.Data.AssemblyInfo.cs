@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DigitalLibrary.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b8cab01299f8bcfa2c49d83d0dbef681ddcac0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a74cb4313af17607ff51a35a0b256a309f6f5391")]
 [assembly: System.Reflection.AssemblyProductAttribute("DigitalLibrary.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DigitalLibrary.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
