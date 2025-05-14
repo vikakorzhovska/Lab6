@@ -1,0 +1,33 @@
+﻿@model IEnumerable<DigitalLibrary.Core.Models.Book>
+
+<h2>Книги</h2>
+<a asp-action="Create">+ Додати нову книгу</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Назва</th>
+            <th>Автор</th>
+            <th>Дата публікації</th>
+            <th>ISBN</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author?.FullName</td>
+                <td>@book.PublishDate</td>
+                <td>@book.ISBN</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@book.Id">Деталі</a> |
+                    <a asp-action="Edit" asp-route-id="@book.Id">Редагувати</a> |
+                    <a asp-action="Delete" asp-route-id="@book.Id">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
